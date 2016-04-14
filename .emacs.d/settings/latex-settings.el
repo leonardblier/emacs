@@ -32,9 +32,24 @@
 ; always start the server for inverse search
 (setq-default TeX-source-correlate-start-server 0)
 
-(add-hook 'LaTeX-mode-hook
-	  (lambda ()
-	    (tex-pdf-mode 1)
-            (TeX-source-correlate-mode 1)))
+
+(setq TeX-parse-self t)
+
+; activate RefTex
+
+
+(add-hook 'latex-mode-hook 'turn-on-reftex)
+(add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+(setq reftex-plug-into-AUCTeX t)
+(setq reftex-default-bibliography '("biblio.bib"))
+
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq-default TeX-master nil)
+(setq LaTeX-electric-left-right-brace t)
+(setq LaTeX-math-abbrev-prefix "œ")
+(add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
+(setq TeX-electric-sub-and-superscript t)
+
 
 (provide 'latex-settings)

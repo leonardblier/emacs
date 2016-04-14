@@ -14,19 +14,13 @@
 
 ; packages to install
 (setq 
- my-packages '(auctex
-               auto-complete
+ my-packages '(auto-complete
                color-theme-solarized
                ein
-               magit
                markdown-mode
-               matlab-mode
-               nxhtml
-               pydoc-info
                scss-mode
                popup
                jedi
-               nyan-mode
                helm
                helm-descbinds
                js2-mode
@@ -42,4 +36,5 @@
 (el-get 'sync my-packages)
 
 (provide 'el-get-settings)
+
 

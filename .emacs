@@ -3,6 +3,9 @@
 ;; path to where plugins are kept
 (setq plugin-path "~/.emacs.d/el-get/")
 
+;; Add packages lists
+
+
 ;; define various custom functions
 (require 'custom-functions)
 
@@ -11,6 +14,16 @@
 
 ;; install dependencies with el-get
 (require 'el-get-settings)
+
+(setq package-archives 
+      '( 
+        ("marmalade" . "http://marmalade-repo.org/packages/")
+        ("elpa" . "http://tromey.com/elpa/")
+        ("melpa" . "http://melpa.milkbox.net/packages/")
+        ("gnu" . "http://elpa.gnu.org/packages/")
+        ))
+
+(package-initialize) ;; init elpa packages
 
 ;---------------;
 ;;; Utilities ;;;
@@ -54,7 +67,7 @@
 (ido-mode 1)
 
 ;; MuMaMo
-(require 'mumamo-settings)
+;;(require 'mumamo-settings)
 
 ;; Markdown mode
 (require 'markdown-settings)
@@ -67,18 +80,6 @@
 
 ;; SCSS Mode
 (require 'scss-settings)
-
-;; Matlab mode
-(require 'matlab-settings)
-
-;; Javascript
-(require 'js-settings)
-
-;; YAML mode
-(require 'yaml-settings)
-
-;; Nyancat mode!
-(nyan-mode 1)
 
 
 ;---------------------------------------------------------------------
