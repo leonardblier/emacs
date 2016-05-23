@@ -10,7 +10,7 @@
 ;; (add-to-list 'custom-theme-load-path (make-plugin-path "color-theme-solarized"))
 ;; (load-theme 'solarized 1)
 ;; (setq solarized-termcolors 256)
-(add-to-list 'custom-theme-load-path "blackboard-theme.el")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/settings")
 (load-theme 'blackboard t)
 
 
