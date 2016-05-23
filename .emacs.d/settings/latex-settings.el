@@ -51,5 +51,6 @@
 (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
 (setq TeX-electric-sub-and-superscript t)
 
+(setq visual-line-mode t)
 
 (provide 'latex-settings)
