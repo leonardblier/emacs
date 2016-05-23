@@ -31,32 +31,28 @@
 ;---------------;
 
 ;; Git
-(include-plugin "magit")
-(require 'magit)
+;; (include-plugin "magit")
+;; (require 'magit)
 
 ;; Popup
 (include-elget-plugin "popup")
 (require 'popup)
 
-;; Websocket
-(include-plugin "websocket")
-(require 'websocket)
-
-;; Request
-(include-plugin "request")
-(require 'request)
+;; ;; Websocket
+;; (include-plugin "websocket")
+;; (require 'websocket)
 
 ;; yasnippet
 (require 'yasnippet-settings)
 
-;; Auto complete
-(require 'auto-complete-settings)
+;; ;; Auto complete
+;; (require 'auto-complete-settings)
 
-;; Camelcase functions
-(require 'camelcase-settings)
+;; ;; Camelcase functions
+;; (require 'camelcase-settings)
 
-;; Helm
-(require 'helm-settings)
+;; ;; Helm
+;; (require 'helm-settings)
 
 
 ;-----------;
@@ -67,9 +63,6 @@
 (require 'ido)
 (ido-mode 1)
 
-;; MuMaMo
-;;(require 'mumamo-settings)
-
 ;; Markdown mode
 (require 'markdown-settings)
 
@@ -78,9 +71,6 @@
 
 ;; LaTeX and Auctex
 (require 'latex-settings)
-
-;; SCSS Mode
-(require 'scss-settings)
 
 
 ;---------------------------------------------------------------------
