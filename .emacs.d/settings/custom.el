@@ -7,9 +7,12 @@
  )
 
 ; color theme
-(add-to-list 'custom-theme-load-path (make-plugin-path "color-theme-solarized"))
-(load-theme 'solarized 1)
-(setq solarized-termcolors 256)
+;; (add-to-list 'custom-theme-load-path (make-plugin-path "color-theme-solarized"))
+;; (load-theme 'solarized 1)
+;; (setq solarized-termcolors 256)
+(add-to-list 'custom-theme-load-path "blackboard-theme.el")
+(load-theme 'blackboard t)
+
 
 (require 'faces)
 (if (system-is-mac)
