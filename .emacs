@@ -33,15 +33,15 @@
 ;; (require 'magit)
 
 ;; Popup
-(include-elget-plugin "popup")
-(require 'popup)
+;; (include-elget-plugin "popup")
+;; (require 'popup)
 
 ;; ;; Websocket
 ;; (include-plugin "websocket")
 ;; (require 'websocket)
 
-;; yasnippet
-(require 'yasnippet-settings)
+;; ;; yasnippet
+;; (require 'yasnippet-settings)
 
 ;; ;; Auto complete
 ;; (require 'auto-complete-settings)
@@ -49,8 +49,8 @@
 ;; ;; Camelcase functions
 ;; (require 'camelcase-settings)
 
-;; Helm
-(require 'helm-settings)
+;; ;; Helm
+;; (require 'helm-settings)
 
 
 ;-----------;
@@ -61,8 +61,8 @@
 (require 'ido)
 (ido-mode 1)
 
-;; Markdown mode
-(require 'markdown-settings)
+;; ;; Markdown mode
+;; (require 'markdown-settings)
 
 ;; Python mode 
 (require 'python-settings)

@@ -15,10 +15,6 @@
 ; packages to install
 (setq 
  my-packages '(auto-complete
-               markdown-mode
-               popup
-               helm-descbinds
-               yasnippet
                elpy
                ))   
 
