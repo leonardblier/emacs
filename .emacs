@@ -18,6 +18,7 @@
 (setq package-archives 
       '( 
         ("marmalade" . "http://marmalade-repo.org/packages/")
+        ("elpy" . "http://jorgenschaefer.github.io/packages/")
         )
       )
 

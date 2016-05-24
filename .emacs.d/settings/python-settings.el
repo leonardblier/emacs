@@ -9,6 +9,9 @@
 ; from python.el
 (require 'python)
 
+(package-initialize)
+(elpy-enable)
+
 
 (provide 'python-settings)
 
