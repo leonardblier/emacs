@@ -16,6 +16,7 @@
 (setq 
  my-packages '(auto-complete
                elpy
+               company-quickhelp
                ))   
 
 ; first enable shallow clone, so we don't need to clone the entire

@@ -11,7 +11,7 @@
 
 (package-initialize)
 (elpy-enable)
-(setq elpy-rpc-backend "jedi")
+(company-quickhelp-mode 1)
 
 (provide 'python-settings)
 
