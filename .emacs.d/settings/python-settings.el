@@ -11,7 +11,6 @@
 
 (package-initialize)
 (elpy-enable)
-(company-quickhelp-mode 1)
 
 (provide 'python-settings)
 
